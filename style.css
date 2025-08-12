@@ -26,11 +26,25 @@ body {
 }
 
 .container{
-    padding: 50px;
+    padding: 60px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     background-color: #36374a ;
     box-shadow: #6290c7 0px 0px 20px 5px;
+}
+
+.container input{
+    background-color: #6290c7;
+}
+.container select{
+    background-color: #6290c7;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+    
 }
