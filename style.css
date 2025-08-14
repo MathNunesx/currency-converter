@@ -20,7 +20,7 @@ body {
 
 #title{
     padding-bottom: 50px;
-    color: #6290c7;
+    color: #177fff;
     font-weight: 700;
 
 }
@@ -32,19 +32,35 @@ body {
     flex-direction: column;
     gap: 20px;
     background-color: #36374a ;
-    box-shadow: #6290c7 0px 0px 20px 5px;
+    box-shadow: #177fff 0px 0px 10px 5px;
 }
 
-.container input{
-    background-color: #6290c7;
-}
 .container select{
-    background-color: #6290c7;
+    font-size: 18px;
+    background-color: #1c1d2b;
     color: white;
     font-weight: 500;
     border: none;
     border-radius: 5px;
     padding: 10px;
-    
-    
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
+
+.container select option {
+     background-color: #1c1d2b;
+    color: white;
+    font-weight: 600;
+}
+
+#amount{
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1c1d2b;
+}
+
