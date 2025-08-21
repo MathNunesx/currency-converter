@@ -20,8 +20,9 @@ body {
 
 #title{
     padding-bottom: 50px;
-    color: #177fff;
+    color: #ffff;
     font-weight: 700;
+    text-shadow: #177fff 0px 0px 10px;;
 
 }
 
@@ -61,6 +62,7 @@ body {
     border-color: #ffff;
     box-shadow: #177fff 0px 0px 10px;
     font-size: 15px;
+    font-weight: 600;
     padding: 10px;
     border-radius: 5px;
     color: white;
